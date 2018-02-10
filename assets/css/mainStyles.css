@@ -1,0 +1,54 @@
+
+/* BACKGROUND IMAGE */
+body {
+    background: url('../images/dust_scratches.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* MAIN CONTENT SECTION  */
+.mainContent {
+    background: white;
+}
+
+.mainContent .profilePic{
+    margin-right: 10px;
+}
+
+/* CONTACT ME SECTION */
+.contactMe {
+    background: white;
+}
+
+/* FOOTER SECTION */
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 90px;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 90px;
+    background-color: #666666;
+    border-top: 7px solid #4aaaa5;
+  }
+
+  .footer p {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    line-height: 90px;
+    color: #dddddd;
+}
