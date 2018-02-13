@@ -11,9 +11,21 @@ body {
     background-size: cover;
 }
 
+/* NAV STYLES */
+.navbar .container-fluid {
+    height: 90px;
+    background-color: #fff;
+}
+
+.navbar-brand {
+    font-size: 36px;
+    
+}
+
 /* MAIN CONTENT SECTION  */
 .mainContent {
     background: white;
+    padding-bottom: 20px;
 }
 
 .mainContent .profilePic{
@@ -23,7 +35,12 @@ body {
 /* CONTACT ME SECTION */
 .contactMe {
     background: white;
-}
+    padding-bottom: 20px;
+   
+} 
+
+/* PORTFOLIO SECTION */
+
 
 /* FOOTER SECTION */
 
@@ -51,3 +68,7 @@ html {
     line-height: 90px;
     color: #dddddd;
 }
+
+
+/* MEDIA QUERRY  */
+
