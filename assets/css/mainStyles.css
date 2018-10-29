@@ -28,8 +28,8 @@
         padding: 1rem 5rem;
     }
  }
+ /* Global Styling  -----------------------------------------------*/
 
- /* HOMEPAGE STUFF -----------------------------------------------*/
 body, .navbar {
     background-color: #FCFCFD !important;
 }
@@ -45,11 +45,19 @@ body, .navbar {
     font-size: 1.3rem;
 }
 
+ /* HOMEPAGE STUFF -----------------------------------------------*/
+
 .rounded {
     border-radius: 6rem!important;
 }
+.profile_pic {
+    max-width: 250px;
+}
+
 
 /* ----------------------------------------------------------------------------------------- */
+
+
 
 
 /* FOOTER CSS */
@@ -68,11 +76,15 @@ body {
 
   footer {
     
-    height: 100px;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #565657;
     color: #ffffff;
+  }
+
+  .contact_img {
+      padding: 10px;;
   }
   /* ---------------------------------------------------------------------------------------------------- */
