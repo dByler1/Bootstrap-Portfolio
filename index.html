@@ -1,93 +1,87 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/mainStyles.css" />
- 
+
 </head>
+
 <body>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-                    aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand">Dan Byler</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="index.html">About</a>
-                    </li>
-                    <li>
-                        <a href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand h1" href="index.html">
+            Dan Byler
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="experience.html">Portfolio</a>
+                </li>
+            </ul>
         </div>
-        <!-- /.container-fluid -->
     </nav>
-    <div class="container-fluid">
+
+    <div class="container">
         <div class="row">
-            
-            <!-- ABOUT ME SECTION -->
-            <div class="col-md-5 col-md-offset-1 mainContent">
-                <h1>About</h1>
-                <hr/>
-                <img src="assets/images/BylerheadShot.png" alt="profile picutre" class=" pull-left img-responsive profilePic">
+            <div class="col">
+                <img class="rounded mx-auto d-block" src="assets/images/BylerheadShot.png" />
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col col-md-6">
+                <h1>Hi, I'm Dan</h1>
                 <p>
-                    My name is Dan Byler. I'm a multi-passionate entreprenureal professional. I can be found at different times practicing martial
-                    arts, creating instructional programs and content, conducting trainings, making food, learning web development, working
-                    on one project or another, or watching some netflix.
-                    <br/>
-                    <br/> My overall goal is to be useful. Useful to my organizations and communities and to the people around me.
-                    <br/>
-                    <br/> I strive for continuous learning and improvement - in terms of my skills and the relationships I am fourtunate enough
-                    to build.
+                        I’m looking for an opportunity to write code everyday. I’m a full stack web developer with a background in instructional design. My motivation is a commitment to lifelong learning. I’m competitive and an entrepreneur, but I do my best work in a team environment. 
                 </p>
+                <h3>Tech Skills</h3>
+                <p>
+                        HTML, CSS, JavaScript, Node, Express, Github, command line, mySQL and Sequelize, Mongo and Mongoose, React, and jQuery
+                </p>
+                <h3>Other Skills</h3>
+                <p>
+                        Presentation and public speaking, Camtasia, virtual training, program development
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col d-flex flex-column align-items-center">
+                    <p>
+                        &copy; Dan Byler 2018
+                    </p>
                 </div>
 
-            <!-- CONTACT ME SECTION -->
-            <div class="col-md-offset-2 col-md-3 contactMe">
-                <h3>Connect with me</h3>
-                <hr/>
-                <div class="center-block">
-                    <ul class="list-inline">
-                        <li><a href="https://github.com/dByler1" target="_blank" class="img-circle img-responsive"><img src="assets/images/if_github_circle_black_107161.png" alt="github logo"></a></li>
-                        <li><a href="https://www.linkedin.com/in/dannybyler/" target="_blank" class="img-circle img-responsive"><img src="assets/images/if_linkedin_834713.png" alt="LinkedIn logo"></a></li>
-                        <li><a href="https://stackoverflow.com/users/9161540/dan-byler" target="_blank" class="img-circle img-responsive"><img src="assets/images/if_stackoverflow_313469.png" alt="StackOverflow logo"></a></li>
-                    </ul>
-                </div>
             </div>
-        
-            <!-- END ROW -->
+
         </div>
-     <!-- END CONTAINER -->
-    </div>
-       
-        <!-- FOOTER -->
-        <footer class="footer">
-            <div class="container-fluid">
-                <p>
-                    &copy; copyright 2018 Dan Byler
-                </p>
-            </div>
-        </footer>
-            
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+
 </body>
+
 </html>
